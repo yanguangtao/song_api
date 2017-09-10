@@ -40,7 +40,7 @@ login
         "openId": "123",
         "name": "",
         "avatarUrl": "",
-        "gender": "",
+        "gender": "1",
         "p_id": 0,
         "phone": "",
         "create_time": "2017-09-10",
