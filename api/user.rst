@@ -31,7 +31,28 @@ login
 返回::
 
     {
+    "msg": "",
     "header": "user.login",
-    "data": ""
+    "data": {
+        "province": "",
+        "city": "",
+        "update_time": "2017-09-10",
+        "openId": "123",
+        "name": "",
+        "avatarUrl": "",
+        "gender": "",
+        "p_id": 0,
+        "phone": "",
+        "create_time": "2017-09-10",
+        "status": "free",
+        "id_type": "wx",
+        "r_id": -1,
+        "country": "",
+        "nickName": "test",
+        "id": 1,
+        "unionId": ""
+    },
+    "ret": ""
     }
+
 
