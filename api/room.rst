@@ -109,7 +109,7 @@ leave
 
 返回::
 
-        {
+    {
     "msg": "",
     "header": "room.leave",
     "data": {
