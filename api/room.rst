@@ -37,3 +37,82 @@ create_room
     },
     "ret": 0
     }
+
+进入房间
+-------------------
+
+enter_room
+
+参数::
+
+    {
+    "header": "enter_room",
+    "data": {
+        "room_id": "1-E5ylPGI4hgQu5NPxCNm",
+        "p_id": 0   #位置0蓝色方，1红色
+    }
+    }
+
+返回::
+
+    {
+    "msg": "",
+    "header": "room.info",
+    "data": {
+        "status": "waiting",
+        "blue": [
+            "1"
+        ],
+        "room_id": "1-E5ylPGI4hgQu5NPxCNmcf31BywX1fUdb87JNKdb3vU4OevK8VBnrVAEgzmh1d",
+        "users": [1,2],
+        "battle_type": "freestyle",
+        "game_type": "offline",
+        "room_manege": 0,
+        "red": [],
+        "w_id": "64050008"
+    },
+    "ret": 0
+    }
+
+换位置
+------------------
+
+change_position
+
+参数::
+
+    {
+    "header": "change_position",
+    "data":{
+        "room_id":"test",
+        "p_id": 0
+    }
+    }
+
+返回::
+
+    room.info
+
+离开房间
+--------------
+
+leave
+
+参数::
+    {
+    "header": "change_position",
+    "data":{
+        "room_id":"test",
+        "p_id": 0
+    }
+    }
+
+返回::
+
+        {
+    "msg": "",
+    "header": "room.leave",
+    "data": {
+    },
+    "ret": 0
+    }
