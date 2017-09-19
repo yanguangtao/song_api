@@ -27,7 +27,7 @@ create_room
         "blue": [
             "1"
         ],
-        "room_id": "1-E5ylPGI4hgQu5NPxCNmcf31BywX1fUdb87JNKdb3vU4OevK8VBnrVAEgzmh1d",
+        "r_id": "1-E5ylPGI4hgQu5NPxCNmcf31BywX1fUdb87JNKdb3vU4OevK8VBnrVAEgzmh1d",
         "users": [],
         "battle_type": "freestyle",
         "game_type": "offline",
@@ -48,7 +48,7 @@ enter_room
     {
     "header": "enter_room",
     "data": {
-        "room_id": "1-E5ylPGI4hgQu5NPxCNm",
+        "r_id": "1-E5ylPGI4hgQu5NPxCNm",
         "p_id": 0   #位置0蓝色方，1红色
     }
     }
@@ -63,7 +63,7 @@ enter_room
         "blue": [
             "1"
         ],
-        "room_id": "1-E5ylPGI4hgQu5NPxCNmcf31BywX1fUdb87JNKdb3vU4OevK8VBnrVAEgzmh1d",
+        "r_id": "1-E5ylPGI4hgQu5NPxCNmcf31BywX1fUdb87JNKdb3vU4OevK8VBnrVAEgzmh1d",
         "users": [1,2],
         "battle_type": "freestyle",
         "game_type": "offline",
@@ -84,7 +84,7 @@ change_position
     {
     "header": "change_position",
     "data":{
-        "room_id":"test",
+        "r_id":"test",
         "p_id": 0
     }
     }
@@ -103,7 +103,7 @@ leave
     {
     "header": "change_position",
     "data":{
-        "room_id":"test",
+        "r_id":"test",
         "p_id": 0
     }
     }
