@@ -9,6 +9,7 @@ follow  post
 
     {
         "follow_id" : 123
+        "action": 1   1关注, 0取消关注
     }
 
 返回::
@@ -19,5 +20,4 @@ follow  post
     },
     "code": 0
     }
-
 

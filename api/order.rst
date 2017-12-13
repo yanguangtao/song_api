@@ -29,7 +29,8 @@
 order  get
 
 返回::
-	{
+
+   {
     "code": 0,
     "data": [
         {
@@ -56,9 +57,11 @@ order  get
 
 订单详情
 ---------------------
+
 order/@order_sn    get
 
 返回::
+
 	{
     "code": 0,
     "data": {
@@ -85,9 +88,11 @@ order/@order_sn    get
 
 下订单
 -----------------
+
 order   post
 
 参数::
+
 	{
 	"service_id":123,
 	"order_amount": 2.00,
@@ -101,7 +106,8 @@ order   post
 
 
 返回::
-	{
+
+    {
     "code": 0,
     "data": {
         "product_price": "1",
