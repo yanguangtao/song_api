@@ -45,6 +45,7 @@ login
 user   get
 
 返回::
+
     {
     "code": 0,
     "data": {
@@ -106,7 +107,8 @@ user   get
 ------------
 user/@id   get
 
-返回参数:
+返回::
+
     {
     "code": 0,
     "data": {
@@ -135,5 +137,5 @@ user/@id   get
         "order_num": 1000
     },
     "msg": ""
-}
+    }
 
