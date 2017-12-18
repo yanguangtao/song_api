@@ -81,7 +81,10 @@ order/@order_sn    get
         "start_time": "", 开始服务时间
         "bonus_id": 0,  红包id
         "product_price": "1.00",  即user中的price
-        "product_total": 1  
+        "product_total": 1 ,
+        "star": 4,
+        "comment_id": 1,
+        "content": "哈哈哈"
     },
     "msg": ""
 	}
@@ -121,5 +124,27 @@ order   post
     },
     "msg": ""
 	}
+
+
+评价订单
+------------------
+
+order/@order_id/comment        post  需要登录
+
+参数::
+
+    {
+    "star":2   范围1-5整数，
+    "content": "声音很甜美"
+    }
+
+返回::
+
+    {
+    "code": 1,
+    "data": {},
+    "msg": "订单不存在或不属于该用户"
+    }
+
 
 
