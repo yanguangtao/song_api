@@ -9,3 +9,4 @@
    user
    follow
    order
+   chat
